@@ -33,7 +33,24 @@ body {
 }
 
 
-
+.keybord {
+    height: 543px;
+    margin: 5px auto 0;
+    width: 1264px;
+    position: relative;
+}
+.top-block {
+    background:#000;
+    height:180px;
+    width: 1264px;
+    margin:5px auto;
+}
+.passgen-top-block {
+    background:#000;
+    height:440px;
+    width: 800px;
+    margin:5px auto;
+}
 .top-p {
     color:#FFF;
     padding-left:20px;
@@ -46,7 +63,24 @@ body {
     padding-left:40px;
     padding-right:40px;
 }
-
+.blur {
+    background: rgba(0, 0, 0, 0) no-repeat scroll center 51%;
+    filter: blur(20px);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+.fade {
+    background-color: #000;
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
 .content {
     height: 100%;
     position: absolute;
@@ -149,7 +183,13 @@ body {
     font-size: 16px;
     margin-top: 48px;
 }
-
+.key.enter span {
+    background: rgba(0, 0, 0, 0) url("img/wk.png") repeat scroll -24px 0;
+    display: inline-block;
+    height: 12px;
+    vertical-align: -1px;
+    width: 24px;
+}
 .key.ctrl1, .key.ctrl2 {
     width: 70px;
 }
@@ -175,7 +215,13 @@ body {
     margin: 14px auto 0;
     text-align: center;
 }
-
+.key.wndw span {
+    background: rgba(0, 0, 0, 0) url("img/wk.png") no-repeat scroll 0 0;
+    display: block;
+    height: 23px;
+    margin: 0 auto;
+    width: 24px;
+}
 .key.wndw {
     width: 70px;
 }
@@ -269,7 +315,16 @@ h2 {
     text-align:center;
     color:#D3D3D3;
 }
-
+.key.press {
+    background-color: #cc4646;
+    border-color: #cc4646;
+    color: #000;
+}
+.key.active {
+    background-color: #54e947;
+    border-color: #54e947;
+    color: #000;
+}
 .fdesc {
     font-size: 20px;
     margin: 0 0 15px;
