@@ -20,7 +20,7 @@ body {
 
 .key {
     border: 1px solid #fff;
-    border-radius: 1px;
+    border-radius: 10px;
     color: #fff;
     display: inline-block;
     font-size: 18px;
@@ -235,19 +235,19 @@ body {
     width: 112px;
 }
 .key.lclick {
-    border-radius: 0 0 0 15px;
+    border-radius: 10px 30px 10px 30px;
     height: 40px;
     vertical-align: bottom;
     width: 96px;
 }
 .key.rclick {
-    border-radius: 0 0 15px 0;
+    border-radius: 30px 10px 30px 10px;
     height: 40px;
     vertical-align: bottom;
     width: 96px;
 }
 .key.cclick {
-    border-radius: 0;
+    border-radius: 15px;
     height: 40px;
     vertical-align: bottom;
     width: 24px;
@@ -317,12 +317,10 @@ h2 {
 }
 .key.press {
     background-color: #cc4646;
-    border-color: #cc4646;
     color: #000;
 }
 .key.active {
-    background-color: #54e947;
-    border-color: #54e947;
+    background-color: #90eb87;
     color: #000;
 }
 .fdesc {
@@ -375,4 +373,23 @@ h2 {
 }
 .quest-block a:hover {
     text-decoration: none;
+}
+.blue {
+    border: 1px solid rgb(0, 129, 250);
+    
+}
+.red {
+    border: 1px solid rgb(223, 26, 26);
+    
+}
+.green {
+    border: 1px solid rgb(0, 250, 42);
+    
+}
+.yellow {
+    border: 1px solid rgb(233, 250, 0);
+    
+}
+.lol {
+    padding: 15px 0 0 0;
 }
